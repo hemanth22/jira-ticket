@@ -1,4 +1,5 @@
 import requests
+import os
 
 # Jira API endpoint for creating an issue
 url = "https://bitroidbitra.atlassian.net/rest/api/2/issue/"
