@@ -29,5 +29,8 @@ jobs:
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    - name: Test with pytest
+    - name: Creating JIRA with python using version
       run: python jiracreate.py
+
+    - name: Creating JIRA with python using version2
+      run: python createjirav2.py
