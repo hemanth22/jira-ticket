@@ -34,3 +34,6 @@ jobs:
 
     - name: Creating JIRA with python using version2
       run: python createjirav2.py
+
+    - name: Creating JIRA with python using version3
+      run: python createjirav3.py
